@@ -8,7 +8,8 @@ class Square:
     def __init__(self, size=0):
         """Initialize a new square.
         Args:
-        size (int): The size of the new square."""
+        size (int): The size of the new square.
+        """
         self.size = size
 
     @property
@@ -29,7 +30,7 @@ class Square:
         return (self.__size * self.__size)
 
     def """Define the == comparision to a Square."""
-    return self.area() == other.area()
+        return self.area() == other.area()
 
     def __ne__(self, other):
         """Define the != comparison to a Square."""
