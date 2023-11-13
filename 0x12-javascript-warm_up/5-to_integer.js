@@ -8,4 +8,3 @@ if (isNaN(parsedNumber)) {
 } else {
   console.log(`My number: ${parsedNumber}`);
 }
-

@@ -11,4 +11,3 @@ if (isNaN(mySquare)) {
     console.log(x.repeat(mySquare));
   }
 }
-
