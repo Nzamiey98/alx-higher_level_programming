@@ -32,4 +32,3 @@ if __name__ == "__main__":
     else:
         print(f"Error: Failed to retrieve commits. \
                 Status code: {response.status_code}")
-
